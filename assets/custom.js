@@ -71,14 +71,14 @@ $(document).ready(function () {
           focusOnSelect: true,
           pauseOnHover:false,
       }
-    $('.listlogo').not('.slick-initialized').slick({
+    $('.listlogo').slick({
               dots: false,
               infinite: true,
               speed: 300,
               slidesToShow: 8,
               slidesToScroll: 1,
               autoplay:true,
-              autoplayspeed:1500,
+              autoplayspeed:1000,
               arrow:false,
               responsive: [
                 {
@@ -98,7 +98,7 @@ $(document).ready(function () {
                  {
                     breakpoint: 480,
                     settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1
                     }
                  }
@@ -125,7 +125,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         fade: false,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         focusOnSelect: true,
         pauseOnHover:false,
         dots: false,
@@ -143,20 +143,20 @@ $(document).ready(function () {
           }
         ]
       });
-      $('#about .about_environ .right').not('.slick-initialized').slick({
+      $('#about .about_environ .right').slick({
         ...slick1,
         dots: false,
         arrows: false,
         asNavFor: '#about .about_environ .list_img_bot',
       });
       
-      $('.banner_option .list_banner').not('.slick-initialized').slick({
+      $('.banner_option .list_banner').slick({
           ...slick1,
           dots: true,
           arrows: false,
       });
       $(".banner_option .list_banner .slick-dots").appendTo("#dots_banner");
-      $('.homeGameLight .list_game_single').not('.slick-initialized').slick({
+      $('.homeGameLight .list_game_single').slick({
           ...slick1,
           dots: false,
           arrows: true,
@@ -164,7 +164,7 @@ $(document).ready(function () {
           nextArrow: '<i class="fas fa-angle-right"></i>',
           prevArrow: '<i class="fas fa-angle-left"></i>',
       });
-      $('.homeTestimonials .list_feedback').not('.slick-initialized').slick({
+      $('.homeTestimonials .list_feedback').slick({
           ...slick1,
           arrows: true,
           dots: false,
@@ -174,7 +174,7 @@ $(document).ready(function () {
       })
       var widthwd = $(window).width();
       if (widthwd < 769){
-        $('#about .about_vision .about_value').not('.slick-initialized').slick({
+        $('#about .about_vision .about_value').slick({
           dots: false,
           infinite: true,
           speed: 300,
@@ -186,7 +186,7 @@ $(document).ready(function () {
           prevArrow: '<i class="slideNav-prev arrows  fa-solid fa-arrow-left-long"></i>',
           nextArrow: '<i class="slideNav-next arrows  fa-solid fa-arrow-right-long"></i>',
       });
-          $('.studioRec .--right').not('.slick-initialized').slick({
+          $('.studioRec .--right').slick({
               dots: false,
               infinite: true,
               speed: 300,
@@ -197,7 +197,7 @@ $(document).ready(function () {
               prevArrow: '<i class="slideNav-prev arrows  fa-solid fa-arrow-left-long"></i>',
               nextArrow: '<i class="slideNav-next arrows  fa-solid fa-arrow-right-long"></i>',
           });
-          $('.listwork').not('.slick-initialized').slick({
+          $('.listwork').slick({
               dots: false,
               infinite: true,
               speed: 300,
