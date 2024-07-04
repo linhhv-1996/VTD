@@ -141,7 +141,7 @@
   width: 100%;
   height: auto;
   min-height: auto;
-  max-height: 400px;
+  max-height: 480px;
 }
 #about .about_mission .content_title {
   text-transform: uppercase;
