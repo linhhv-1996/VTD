@@ -68,7 +68,7 @@
   font-display: swap;
 }
 :root {
-  --color-yellow: #ED9A21;
+  --color-yellow: #0f8aff;
   --color-brown: #853E25;
   --color-blue: #172532;
   --font-body: "SVN-Avant-book";
@@ -1259,3 +1259,8 @@ body {
     font-size: 1.8rem !important;
   }
 }/*# sourceMappingURL=style.css.map */
+
+.slogan {
+  color: var(--color-yellow);
+}
+
