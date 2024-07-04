@@ -184,6 +184,7 @@
   margin: 100px 0;
   padding: 75px 0;
   position: relative;
+  margin-bottom: 2px !important;
 }
 #about .about_vision table {
   width: 70%;
