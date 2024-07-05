@@ -365,9 +365,9 @@
   transition-property: transform;
 }
 .topRec .applynow a:hover {
-  color: var(--color-yellow);
+  /* color: var(--color-yellow);
   border-color: var(--color-yellow);
-  background: transparent;
+  background: transparent; */
 }
 .topRec .applynow a:hover i {
   transform: translateX(5px);

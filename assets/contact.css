@@ -145,9 +145,9 @@
   transform: translateX(5px);
 }
 #Contact .contactForm .--content .--right .form .button-submit:hover {
-  background: transparent;
+  /* background: transparent;
   color: var(--color-yellow);
-  border-color: var(--color-yellow);
+  border-color: var(--color-yellow); */
 }
 #Contact .contactForm .--content .--right .form .button-submit:hover i {
   transform: translateX(5px);

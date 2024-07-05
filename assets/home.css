@@ -49,7 +49,7 @@
   right: 7px;
   width: 3%;
   height: 36px;
-  background: var(--color-yellow);
+  background: #118bfe;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
 }
@@ -225,7 +225,7 @@
   background: var(--color-yellow);
   display: flex;
   align-items: center;
-  color: #000;
+  color: white;
   justify-content: center;
 }
 .homeGameLight .slide_game #arrow_game_single i.fa-angle-left {
