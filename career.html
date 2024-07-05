@@ -735,32 +735,7 @@
     <script type="text/javascript" src="./assets/en.js" id="wpcf7-select2-i18n-js"></script>
 
     <script type="text/javascript" src="./assets/jquery-post-select2.js" id="wpcf7-post-select2-js"></script>
-    <script type="text/javascript">
-        window.addEventListener("load", function (event) {
-            jQuery(".cfx_form_main,.wpcf7-form,.wpforms-form,.gform_wrapper form").each(function () {
-                var form = jQuery(this);
-                var screen_width = ""; var screen_height = "";
-                if (screen_width == "") {
-                    if (screen) {
-                        screen_width = screen.width;
-                    } else {
-                        screen_width = jQuery(window).width();
-                    }
-                }
-                if (screen_height == "") {
-                    if (screen) {
-                        screen_height = screen.height;
-                    } else {
-                        screen_height = jQuery(window).height();
-                    }
-                }
-                form.append('<input type="hidden" name="vx_width" value="' + screen_width + '">');
-                form.append('<input type="hidden" name="vx_height" value="' + screen_height + '">');
-                form.append('<input type="hidden" name="vx_url" value="' + window.location.href + '">');
-            });
-
-        });
-    </script>
+    
 
     <script src="./assets/bootstrap.min.js"></script>
     <script>
